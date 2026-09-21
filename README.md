@@ -2,8 +2,7 @@
 
 An end-to-end natural language processing system designed to classify customer banking queries across 77 distinct intent categories. In financial environments, traditional keyword matching frequently fails on nuanced language, causing misclassification of high-risk requests such as compromised cards. To resolve this, the system transitions from a baseline Multi-Layer Perceptron (MLP) to a bidirectional RoBERTa transformer fine-tuned with Low-Rank Adaptation (LoRA), achieving a 93.80% Macro F1 score on a balanced evaluation suite.
 
-![Dataset Overview](image_6119a2.png)
-*Dataset split comprising 10,003 training examples and 3,080 test examples across 77 banking intent classes[cite: 6].*
+*Dataset split comprising 10,003 training examples and 3,080 test examples across 77 banking intent classes.*
 
 ## Technical Architecture
 
@@ -14,7 +13,7 @@ An end-to-end natural language processing system designed to classify customer b
 * **Optimization and Regularization:** Utilized a linear warmup learning rate scheduler to protect pre-trained weights from early gradient instability, combined with gradient accumulation and dynamic memory cleanup to avoid Out-Of-Memory (OOM) exceptions.
 
 ![Top 10 Most Frequent Banking Intents](image_611986.png)
-*Distribution of the ten most frequent customer intents, showing high volume in card payment fees, direct debit disputes, and deposit balance updates[cite: 7].*
+*Distribution of the ten most frequent customer intents, showing high volume in card payment fees, direct debit disputes, and deposit balance updates.*
 
 ## Results and Evaluation
 
@@ -28,7 +27,7 @@ The model was evaluated using Macro F1 alongside classification accuracy across 
 The LoRA-adapted RoBERTa model yielded an absolute gain of over 5.7% in Macro F1 over the baseline. Because the Macro F1 score matched overall accuracy at 93.80%, the system demonstrates balanced generalization across tail-distribution intents.
 
 ![Training Loss and Evaluation](image_611982.png)
-*Ten-epoch training run illustrating steady reduction in validation loss down to 0.257, reaching a final Macro F1 score of 0.9380[cite: 8].*
+*Ten-epoch training run illustrating steady reduction in validation loss down to 0.257, reaching a final Macro F1 score of 0.9380.*
 
 ## Production Deployment Roadmap
 
