@@ -29,7 +29,9 @@ The model was evaluated using Macro F1 alongside classification accuracy across 
 
 <img width="300" height="50" alt="image" src="https://github.com/user-attachments/assets/cc9efdc8-a496-4219-ae06-b01799d26d44" />
 
+
 The LoRA-adapted RoBERTa model yielded an absolute gain of over 5.7% in Macro F1 over the baseline. Because the Macro F1 score matched overall accuracy at 93.80%, the system demonstrates balanced generalization across tail-distribution intents.
+
 
 <img width="318" height="375" alt="image" src="https://github.com/user-attachments/assets/cdb6ea18-45f8-495a-92a8-5f7295583bc0" />
 *Ten-epoch training run illustrating steady reduction in validation loss down to 0.257, reaching a final Macro F1 score of 0.9380.*
