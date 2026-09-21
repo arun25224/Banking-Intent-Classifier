@@ -16,6 +16,7 @@ An end-to-end natural language processing system designed to classify customer b
 * **Optimization and Regularization:** Utilized a linear warmup learning rate scheduler to protect pre-trained weights from early gradient instability, combined with gradient accumulation and dynamic memory cleanup to avoid Out-Of-Memory (OOM) exceptions.
 
 <img width="1190" height="547" alt="image" src="https://github.com/user-attachments/assets/bb277a11-66af-40fd-b251-3dd5198eb9b7" />
+
 *Distribution of the ten most frequent customer intents, showing high volume in card payment fees, direct debit disputes, and deposit balance updates.*
 
 ## Results and Evaluation
