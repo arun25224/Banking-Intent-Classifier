@@ -27,7 +27,7 @@ The model was evaluated using Macro F1 alongside classification accuracy across 
 | MLP Baseline (TF-IDF) | Low | 88.07% | 88.02% |
 | RoBERTa (LoRA) | Moderate | 93.80% | 93.80% |
 
-<img width="381" height="84" alt="image" src="https://github.com/user-attachments/assets/bb35b904-4d6e-4983-a367-f319a27b300b" />
+<img width="381" height="72" alt="image" src="https://github.com/user-attachments/assets/bb35b904-4d6e-4983-a367-f319a27b300b" />
 
 The LoRA-adapted RoBERTa model yielded an absolute gain of over 5.7% in Macro F1 over the baseline. Because the Macro F1 score matched overall accuracy at 93.80%, the system demonstrates balanced generalization across tail-distribution intents.
 
