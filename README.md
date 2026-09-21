@@ -45,7 +45,7 @@ The LoRA-adapted RoBERTa model yielded an absolute gain of over 5.7% in Macro F1
 
 ## Project Dependencies
 
-* Python 3.x
+* Python 3.11
 * PyTorch
 * Hugging Face Transformers
 * Hugging Face PEFT (Parameter-Efficient Fine-Tuning)
