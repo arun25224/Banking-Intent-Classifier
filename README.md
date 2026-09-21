@@ -34,6 +34,7 @@ The LoRA-adapted RoBERTa model yielded an absolute gain of over 5.7% in Macro F1
 
 
 <img width="318" height="375" alt="image" src="https://github.com/user-attachments/assets/cdb6ea18-45f8-495a-92a8-5f7295583bc0" />
+
 *Ten-epoch training run illustrating steady reduction in validation loss down to 0.257, reaching a final Macro F1 score of 0.9380.*
 
 ## Production Deployment Roadmap
